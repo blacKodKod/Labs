@@ -1,0 +1,6 @@
+﻿  exs4.cpp
+c:\users\laptop\source\repos\algo\lab1_algo\exs4\exs4.cpp(62): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'num::<unnamed-type-bit>::<unnamed-type-b4>'
+c:\users\laptop\source\repos\algo\lab1_algo\exs4\exs4.cpp(62): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'num::<unnamed-type-bit>::<unnamed-type-b3>'
+c:\users\laptop\source\repos\algo\lab1_algo\exs4\exs4.cpp(62): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 3 has type 'num::<unnamed-type-bit>::<unnamed-type-b2>'
+c:\users\laptop\source\repos\algo\lab1_algo\exs4\exs4.cpp(62): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 4 has type 'num::<unnamed-type-bit>::<unnamed-type-b1>'
+  exs4.vcxproj -> C:\Users\laptop\source\repos\Algo\Lab1_algo\Debug\exs4.exe

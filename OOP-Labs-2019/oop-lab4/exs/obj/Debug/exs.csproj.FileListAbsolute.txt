@@ -1,0 +1,7 @@
+C:\Users\laptop\Desktop\робоча папка\ООП\Лабораторні\oop-lab4\exs\bin\Debug\exs.exe.config
+C:\Users\laptop\Desktop\робоча папка\ООП\Лабораторні\oop-lab4\exs\bin\Debug\exs.exe
+C:\Users\laptop\Desktop\робоча папка\ООП\Лабораторні\oop-lab4\exs\bin\Debug\exs.pdb
+C:\Users\laptop\Desktop\робоча папка\ООП\Лабораторні\oop-lab4\exs\obj\Debug\exs.csprojAssemblyReference.cache
+C:\Users\laptop\Desktop\робоча папка\ООП\Лабораторні\oop-lab4\exs\obj\Debug\exs.csproj.CoreCompileInputs.cache
+C:\Users\laptop\Desktop\робоча папка\ООП\Лабораторні\oop-lab4\exs\obj\Debug\exs.exe
+C:\Users\laptop\Desktop\робоча папка\ООП\Лабораторні\oop-lab4\exs\obj\Debug\exs.pdb

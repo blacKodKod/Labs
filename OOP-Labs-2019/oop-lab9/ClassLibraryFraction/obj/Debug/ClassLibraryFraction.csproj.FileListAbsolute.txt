@@ -1,0 +1,6 @@
+C:\Users\laptop\source\repos\OOP\oop-lab9\ClassLibraryFraction\bin\Debug\ClassLibraryFraction.dll
+C:\Users\laptop\source\repos\OOP\oop-lab9\ClassLibraryFraction\bin\Debug\ClassLibraryFraction.pdb
+C:\Users\laptop\source\repos\OOP\oop-lab9\ClassLibraryFraction\obj\Debug\ClassLibraryFraction.csprojAssemblyReference.cache
+C:\Users\laptop\source\repos\OOP\oop-lab9\ClassLibraryFraction\obj\Debug\ClassLibraryFraction.csproj.CoreCompileInputs.cache
+C:\Users\laptop\source\repos\OOP\oop-lab9\ClassLibraryFraction\obj\Debug\ClassLibraryFraction.dll
+C:\Users\laptop\source\repos\OOP\oop-lab9\ClassLibraryFraction\obj\Debug\ClassLibraryFraction.pdb

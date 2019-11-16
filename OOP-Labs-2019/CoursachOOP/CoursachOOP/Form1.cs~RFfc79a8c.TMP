@@ -1,0 +1,652 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Collections;
+using System.Text.RegularExpressions;
+using ClassLibrary;
+
+namespace CoursachOOP
+{
+    public partial class Form1 : Form
+    {
+        Client client;
+        Panel panel;
+        int code;
+        string currency;
+        Regex phone = new Regex(@"^(\+?38?0[( \-]?)?\d{2,3}[) \-]?[ \-]?\d{2,3}[ \-.]?\d{2}[ \-.]?\d{2,3}$");
+        Regex password = new Regex(@"^\d{4}$");
+
+        public Form1()
+        {
+            InitializeComponent();
+            pictureBoxScreen.SendToBack();
+            pictureBoxCard.BringToFront();
+            pictureBoxMoney.BringToFront();
+            buttonEnter.BringToFront();
+            buttonPutMoney.BringToFront();
+            buttonGetMoney.BringToFront();
+            buttonGetBalance.BringToFront();
+            buttonPutPhone.BringToFront();
+            buttonOkPutMoney.BringToFront();
+            buttonOkGetMoney.BringToFront();
+            buttonOkPutPhone.BringToFront();
+            textBoxPinCode.BringToFront();
+            textBoxPushMoney.BringToFront();
+            textBoxNumberOfPhone.BringToFront();
+            label1.BringToFront();
+            label2.BringToFront();
+            label3.BringToFront();
+            label4.BringToFront();
+            label5.BringToFront();
+            label6.BringToFront();
+            label7.BringToFront();
+            label8.BringToFront();
+            label9.BringToFront();
+            label10.BringToFront();
+            label11.BringToFront();
+            label12.BringToFront();
+            label13.BringToFront();
+            label14.BringToFront();
+            label15.BringToFront();
+            label16.BringToFront();
+            label17.BringToFront();
+            label18.BringToFront();
+            label19.BringToFront();
+        }
+
+        private void pictureBoxCard_Click(object sender, EventArgs e)
+        {
+            client = new Client();
+
+            textBoxInfo.Visible = true;
+
+            pictureBoxCard.Visible = false;
+            buttonEnter.Visible = true;
+            button1.Visible = true;
+            button2.Visible = true;
+            button3.Visible = true;
+            button4.Visible = true;
+            button5.Visible = true;
+            button6.Visible = true;
+            button7.Visible = true;
+            button8.Visible = true;
+            button9.Visible = true;
+            button0.Visible = true;
+            textBoxMenu.Visible = true;
+            textBoxPinCode.Visible = true;
+
+            Random rnd = new Random();
+            code = rnd.Next(1000, 9999);
+            textBoxInfo.Text = textBoxInfo.Text + code;
+            textBoxMenu.Text = "ДОБРО ПОЖАЛОВАТЬ! ПОЖАЛУЙСТА, ВВЕДИТЕ ВАШ PIN-КОД И НАЖМИТЕ ENTER:";
+        }
+
+        private void buttonEnter_Click(object sender, EventArgs e)
+        {
+            string pinCode = textBoxPinCode.Text;
+            int err;
+            int.TryParse(pinCode, out err);
+
+            if (err != code || err < 1000 || err > 9999)
+            {
+                textBoxMenu.Text = "ОШИБКА!!!\nВЫ ВВЕЛИ НЕПРАВИЛЬНЫЙ PIN-КОД!\nПОВТОРИТЕ ПОПЫТКУ";
+                textBoxPinCode.Visible = true;
+                textBoxPinCode.Text = null;
+                textBoxNumberOfPhone.Text = null;
+
+                buttonPutMoney.Visible = false;
+                buttonGetMoney.Visible = false;
+                buttonGetBalance.Visible = false;
+                buttonPutPhone.Visible = false;
+                buttonOk.Visible = false;
+                buttonOkPutMoney.Visible = false;
+                buttonOkGetMoney.Visible = false;
+                buttonOkPutPhone.Visible = false;
+                buttonPayUtilities.Visible = false;
+                buttonElectricity.Visible = false;
+                buttonHeating.Visible = false;
+                buttonWaterService.Visible = false;
+                buttonGas.Visible = false;
+                buttonExit.Visible = false;
+                return;
+            }
+            textBoxPinCode.Visible = false;
+            buttonEnter.Visible = false;
+
+            textBoxMenu.Text = "ПОЖАЛУЙСТА, ВЫБЕРИТЕ ВАЛЮТУ:";
+
+            buttonHryvnia.Visible = true;
+            buttonRuble.Visible = true;
+            buttonEuro.Visible = true;
+            buttonDollar.Visible = true;
+            label16.Visible = true;
+            label17.Visible = true;
+            label18.Visible = true;
+            label19.Visible = true;
+
+            textBoxPinCode.Text = null;
+        }
+
+        private void textBoxPinCode_TextChanged(object sender, EventArgs e)
+        {
+            if (password.IsMatch(textBoxPinCode.Text))
+                textBoxMenu.Text = "НАЖМИТЕ ENTER:";
+        }
+
+        private void buttonHryvnia_Click(object sender, EventArgs e)
+        {
+            currency = " ₴";
+
+            buttonNext.Visible = true;
+            buttonNext_Click(sender, e);
+        }
+
+        private void buttonRuble_Click(object sender, EventArgs e)
+        {
+            currency = " ₽";
+
+            buttonNext.Visible = true;
+            buttonNext_Click(sender, e);
+        }
+
+        private void buttonEuro_Click(object sender, EventArgs e)
+        {
+            currency = " €";
+
+            buttonNext.Visible = true;
+            buttonNext_Click(sender, e);
+        }
+
+        private void buttonDollar_Click(object sender, EventArgs e)
+        {
+            currency = " $";
+
+            buttonNext.Visible = true;
+            buttonNext_Click(sender, e);
+        }
+
+        private void buttonNext_Click(object sender, EventArgs e)
+        {  
+            textBoxMenu.Text = "ПОЖАЛУЙСТА, ВЫБЕРИТЕ ОДНУ ИЗ ОПЕРАЦИЙ:";
+                        
+            textBoxPushMoney.Text = null;
+            textBoxNumberOfPhone.Text = null;
+
+            buttonPutMoney.Visible = true;
+            buttonGetMoney.Visible = true;
+            buttonGetBalance.Visible = true;
+            buttonPutPhone.Visible = true;
+            buttonPayUtilities.Visible = true;            
+            buttonExit.Visible = true;
+            buttonCancel.Visible = true;
+            buttonOk.Visible = true;
+            buttonOkPutMoney.Visible = false;
+            buttonOkGetMoney.Visible = false;
+            buttonOkPutPhone.Visible = false;
+            buttonYes.Visible = true;
+            buttonNo.Visible = false;
+            buttonPlus.Visible = false;
+            buttonMinus.Visible = false;
+            buttonHryvnia.Visible = false;
+            buttonRuble.Visible = false;
+            buttonEuro.Visible = false;
+            buttonDollar.Visible = false;
+            textBoxPushMoney.Visible = false;
+            textBoxNumberOfPhone.Visible = false;
+            textBoxInfo.Visible = false;
+            label1.Visible = true;
+            label2.Visible = true;
+            label3.Visible = true;
+            label4.Visible = true;
+            label5.Visible = true;
+            label6.Visible = false;
+            label7.Visible = false;
+            label8.Visible = false;
+            label9.Visible = false;
+            label10.Visible = false;
+            label11.Visible = false;
+            label12.Visible = false;
+            label13.Visible = true;
+            label14.Visible = false;
+            label15.Visible = false;
+            label16.Visible = false;
+            label17.Visible = false;
+            label18.Visible = false;
+            label19.Visible = false;
+        }
+
+        private void buttonPutMoney_Click(object sender, EventArgs e)
+        {
+            textBoxMenu.Text = "ВВЕДИТЕ СУММУ И НАЖМИТЕ OK:";
+            
+            buttonOkPutMoney.Visible = true;
+            textBoxPushMoney.Visible = true;
+            textBoxNumberOfPhone.Visible = false;
+            label1.Visible = false;
+            label2.Visible = false;
+            label3.Visible = false;
+            label4.Visible = false;
+            label5.Visible = false;
+            label6.Visible = true;
+            label7.Visible = false;
+            label8.Visible = true;
+            label13.Visible = false;
+        }
+
+        private void buttonOkPutMoney_Click(object sender, EventArgs e)
+        {
+            int sum;
+            string coin = textBoxPushMoney.Text;
+            int.TryParse(coin, out sum);
+            textBoxInfo.Text = client.putMoney(sum).ToString();
+
+            textBoxMenu.Text = "СЧЕТ УСПЕШНО ПОПОЛНЕНО. ЧТОБЫ ПРОДОЛЖИТЬ НАЖМИТЕ ДАЛЕЕ";
+            
+            textBoxPushMoney.Visible = false;
+            label6.Visible = false;
+            label8.Visible = false;
+        }
+
+        private void buttonGetMoney_Click(object sender, EventArgs e)
+        {
+            textBoxMenu.Text = "ВВЕДИТЕ СУММУ И НАЖМИТЕ OK:";
+
+            int sum;
+            string coin = textBoxPushMoney.Text;
+            int.TryParse(coin, out sum);
+
+            buttonOkGetMoney.Visible = true;
+            buttonOkPutPhone.Visible = false;
+            textBoxPushMoney.Visible = true;
+            textBoxNumberOfPhone.Visible = false;
+            label1.Visible = false;
+            label2.Visible = false;
+            label3.Visible = false;
+            label4.Visible = false;
+            label5.Visible = false;
+            label6.Visible = true;
+            label7.Visible = false;
+            label8.Visible = true;
+            label13.Visible = false;
+        }
+
+        private void buttonOkGetMoney_Click(object sender, EventArgs e)
+        {
+            int sum;
+            string coin = textBoxPushMoney.Text;
+            int.TryParse(coin, out sum);
+
+            int balance = 0;
+            balance = client.getMoney(sum);
+            if (balance == 0)
+                textBoxMenu.Text = "ОШИБКА!!!\nУ ВАС НЕДОСТАТОЧНО СРЕДСТВ! ЧТОБЫ ПРОДОЛЖИТЬ НАЖМИТЕ ДАЛЕЕ";
+            else
+                textBoxMenu.Text = "СЧЕТ УСПЕШНО ПОПОЛНЕНО. ЧТОБЫ ПРОДОЛЖИТЬ НАЖМИТЕ ДАЛЕЕ";
+
+            textBoxInfo.Text = balance.ToString();
+
+            textBoxPushMoney.Visible = false;
+            textBoxNumberOfPhone.Visible = false;
+            label6.Visible = false;
+            label7.Visible = false;
+            label8.Visible = false;
+        }
+
+        private void buttonGetBalance_Click(object sender, EventArgs e)
+        {
+            textBoxMenu.Text = "НА ВАШЕМ СЧЕТУ: " + client.getBalance() + currency + " ЧТОБЫ ПРОДОЛЖИТЬ НАЖМИТЕ ДАЛЕЕ";
+            textBoxInfo.Text = client.getBalance().ToString();
+
+            textBoxPushMoney.Visible = false;
+            textBoxNumberOfPhone.Visible = false;
+            label1.Visible = false;
+            label2.Visible = false;
+            label3.Visible = false;
+            label4.Visible = false;
+            label5.Visible = false;
+            label7.Visible = false;
+            label8.Visible = false;
+            label13.Visible = false;
+        }
+
+        private void buttonPutPhone_Click(object sender, EventArgs e)
+        {
+            textBoxMenu.Text = "ВВЕДИТЕ НОМЕР ТЕЛЕФОНА И НАЖМИТЕ OK:";
+
+            buttonOkPutPhone.Visible = true;
+            textBoxNumberOfPhone.Visible = true;
+            label1.Visible = false;
+            label2.Visible = false;
+            label3.Visible = false;
+            label4.Visible = false;
+            label5.Visible = false;
+            label6.Visible = true;
+            label7.Visible = true;
+            label13.Visible = false;
+            buttonPlus.Visible = true;
+            buttonMinus.Visible = true;
+        }
+
+        private void buttonOkPutPhone_Click(object sender, EventArgs e)
+        {
+            string num = textBoxNumberOfPhone.Text;
+            int mobile = 0;
+            mobile = client.putPhone(num);
+            
+            if (mobile == 0)
+            {
+                textBoxMenu.Text = "ОШИБКА!!! ВВЕДИТЕ НОМЕР ТЕЛЕФОНА И НАЖМИТЕ OK:";
+            }
+            else
+                buttonGetMoney_Click(sender, e);
+
+            textBoxPushMoney.Text = null;
+        }
+
+        private void textBoxNumberOfPhone_TextChanged(object sender, EventArgs e)
+        {
+            if (phone.IsMatch(textBoxNumberOfPhone.Text))
+                textBoxMenu.Text = "НАЖМИТЕ OK:";
+        }
+
+        private void buttonPayUtilities_Click(object sender, EventArgs e)
+        {
+            textBoxMenu.Text = "ПОЖАЛУЙСТА, ВЫБЕРИТЕ УСЛУГУ:";
+
+            buttonPutMoney.Visible = false;
+            buttonGetMoney.Visible = false;
+            buttonGetBalance.Visible = false;
+            buttonPutPhone.Visible = false;
+            buttonElectricity.Visible = true;
+            buttonHeating.Visible = true;
+            buttonWaterService.Visible = true;
+            buttonGas.Visible = true;
+            textBoxPushMoney.Visible = false;
+            textBoxNumberOfPhone.Visible = false;
+            label1.Visible = false;
+            label2.Visible = false;
+            label3.Visible = false;
+            label4.Visible = false;
+            label5.Visible = false;
+            label6.Visible = false;
+            label7.Visible = false;
+            label8.Visible = false;
+            label9.Visible = true;
+            label10.Visible = true;
+            label11.Visible = true;
+            label12.Visible = true;
+            label13.Visible = false;
+        }
+
+        private void buttonElectricity_Click(object sender, EventArgs e)
+        {
+            textBoxMenu.Text = "ОПЛАТА ЭЛЕКТРОЕНЕРГИИ! ВВЕДИТЕ СУММУ ПЛАТЕЖА И НАЖМИТЕ OK:";
+
+            buttonOk.Visible = true;
+            textBoxPushMoney.Visible = true;
+            label6.Visible = true;
+            label8.Visible = true;
+            label9.Visible = false;
+            label10.Visible = false;
+            label11.Visible = false;
+            label12.Visible = false;
+        }
+
+        private void buttonHeating_Click(object sender, EventArgs e)
+        {
+            textBoxMenu.Text = "ОПЛАТА ОТОПЛЕНИЯ! ВВЕДИТЕ СУММУ ПЛАТЕЖА И НАЖМИТЕ OK:";
+
+            buttonOk.Visible = true;
+            textBoxPushMoney.Visible = true;
+            label6.Visible = true;
+            label8.Visible = true;
+            label9.Visible = false;
+            label10.Visible = false;
+            label11.Visible = false;
+            label12.Visible = false;
+        }
+
+        private void buttonWaterService_Click(object sender, EventArgs e)
+        {
+            textBoxMenu.Text = "ОПЛАТА ВОДОСНАБЖЕНИЯ! ВВЕДИТЕ СУММУ ПЛАТЕЖА И НАЖМИТЕ OK:";
+
+            buttonOk.Visible = true;
+            textBoxPushMoney.Visible = true;
+            label6.Visible = true;
+            label8.Visible = true;
+            label9.Visible = false;
+            label10.Visible = false;
+            label11.Visible = false;
+            label12.Visible = false;
+        }
+
+        private void buttonGas_Click(object sender, EventArgs e)
+        {
+            textBoxMenu.Text = "ОПЛАТА ЗА ГАЗ! ВВЕДИТЕ СУММУ ПЛАТЕЖА И НАЖМИТЕ OK:";
+
+            buttonOk.Visible = true;
+            textBoxPushMoney.Visible = true;
+            label6.Visible = true;
+            label8.Visible = true;
+            label9.Visible = false;
+            label10.Visible = false;
+            label11.Visible = false;
+            label12.Visible = false;
+        }
+
+        private void buttonOk_Click(object sender, EventArgs e)
+        {
+            textBoxMenu.Text = "ОПЛАТА ПРОШЛА УСПЕШНО. ЧТОБЫ ПРОДОЛЖИТЬ НАЖМИТЕ ДАЛЕЕ:";
+            buttonOkGetMoney_Click(sender, e);
+        }
+
+        private void buttonCancel_Click(object sender, EventArgs e)
+        {
+            buttonNext_Click(sender, e);
+
+            pictureBoxReceipt.Visible = false;
+            pictureBoxCardExit.Visible = false;
+        }
+
+        private void buttonExit_Click(object sender, EventArgs e)
+        {
+            textBoxMenu.Text = "РАСПЕЧАТАТЬ ЧЕК?";
+
+            buttonExit.Visible = false;
+            buttonOk.Visible = true;
+            buttonNo.Visible = true;
+            label1.Visible = false;
+            label2.Visible = false;
+            label3.Visible = false;
+            label4.Visible = false;
+            label5.Visible = false;
+            label13.Visible = false;
+            label14.Visible = true;
+            label15.Visible = true;
+        }
+
+        private void buttonYes_Click(object sender, EventArgs e)
+        {
+            textBoxMenu.Text = "ВОЗЬМИТЕ ВАШ ЧЕК";
+
+            label14.Visible = false;
+            label15.Visible = false;
+            pictureBoxReceipt.Visible = true;
+        }
+
+        private void buttonNo_Click(object sender, EventArgs e)
+        {
+            label14.Visible = false;
+            label15.Visible = false;
+
+            pictureBoxReceipt_Click(sender, e);            
+        }
+
+        private void pictureBoxReceipt_Click(object sender, EventArgs e)
+        {
+            textBoxMenu.Text = "ВОЗЬМИТЕ ВАШУ КАРТУ";
+
+            pictureBoxReceipt.Visible = false;
+            pictureBoxCardExit.Visible = true;
+        }
+
+        private void pictureBoxCardExit_Click(object sender, EventArgs e)
+        {
+            textBoxMenu.Text = "ВОЗЬМИТЕ ВАШИ ДЕНЬГИ";
+
+            pictureBoxCardExit.Visible = false;
+            pictureBoxMoney.Visible = true;
+        }
+
+        private void pictureBoxMoney_Click(object sender, EventArgs e)
+        {
+            textBoxMenu.Text = "СПАСИБО ЧТО ОБРАТИЛИСЬ В НАШ БАНК";
+
+            textBoxInfo.Text = null;
+            textBoxPinCode.Text = null;
+
+            pictureBoxMoney.Visible = false;
+            buttonPutMoney.Visible = false;
+            buttonGetMoney.Visible = false;
+            buttonGetBalance.Visible = false;
+            buttonPutPhone.Visible = false;
+            buttonElectricity.Visible = false;
+            buttonHeating.Visible = false;
+            buttonWaterService.Visible = false;
+            buttonGas.Visible = false;
+            buttonPayUtilities.Visible = false;
+            buttonYes.Visible = false;
+            buttonNo.Visible = false;
+            buttonExit.Visible = false;
+            buttonOk.Visible = false;
+            buttonOkPutMoney.Visible = false;
+            buttonOkGetMoney.Visible = false;
+            buttonOkPutPhone.Visible = false;
+            buttonEnter.Visible = false;
+            buttonNext.Visible = false;
+            buttonCancel.Visible = false;
+            button1.Visible = false;
+            button2.Visible = false;
+            button3.Visible = false;
+            button4.Visible = false;
+            button5.Visible = false;
+            button6.Visible = false;
+            button7.Visible = false;
+            button8.Visible = false;
+            button9.Visible = false;
+            button0.Visible = false;
+            buttonPlus.Visible = false;
+            buttonMinus.Visible = false;
+            buttonRepeat.Visible = true;
+        }
+
+        public void pinCode(string num)
+        {
+            textBoxPinCode.Text += num;
+        }
+
+        public void mobPhone(string num)
+        {
+            textBoxNumberOfPhone.Text += num;
+        }
+
+        public void summa(string num)
+        {
+            textBoxPushMoney.Text += num;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            pinCode(panel.num1());
+            mobPhone(client.num1());
+            summa(client.num1());
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            pinCode(client.num2());
+            mobPhone(client.num2());
+            summa(client.num2());
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            pinCode(client.num3());
+            mobPhone(client.num3());
+            summa(client.num3());
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            pinCode(client.num4());
+            mobPhone(client.num4());
+            summa(client.num4());
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            pinCode(client.num5());
+            mobPhone(client.num5());
+            summa(client.num5());
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            pinCode(client.num6());
+            mobPhone(client.num6());
+            summa(client.num6());
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            pinCode(client.num7());
+            mobPhone(client.num7());
+            summa(client.num7());
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            pinCode(client.num8());
+            mobPhone(client.num8());
+            summa(client.num8());
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            pinCode(client.num9());
+            mobPhone(client.num9());
+            summa(client.num9());
+        }
+
+        private void button0_Click(object sender, EventArgs e)
+        {
+            pinCode(client.num0());
+            mobPhone(client.num0());
+            summa(client.num0());
+        }
+
+        private void buttonPlus_Click(object sender, EventArgs e)
+        {
+            mobPhone(client.numPlus());
+        }
+
+        private void buttonMinus_Click(object sender, EventArgs e)
+        {
+            mobPhone(client.numMinus());
+        }
+
+        private void buttonRepeat_Click(object sender, EventArgs e)
+        {
+            textBoxMenu.Text = "ВСТАВЬТЕ КАРТУ:";
+
+            pictureBoxCard.Visible = true;
+            buttonRepeat.Visible = false;
+        }
+    }
+}

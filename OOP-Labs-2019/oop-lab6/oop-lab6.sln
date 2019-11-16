@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlazedForms", "oop-lab6\GlazedForms.csproj", "{31DF1720-5DC6-4F94-ACDA-16C75B0EBBDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelForm", "Travel\TravelForm.csproj", "{65B9DA3D-C113-4336-A959-FCBEEBDB9628}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31DF1720-5DC6-4F94-ACDA-16C75B0EBBDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31DF1720-5DC6-4F94-ACDA-16C75B0EBBDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31DF1720-5DC6-4F94-ACDA-16C75B0EBBDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31DF1720-5DC6-4F94-ACDA-16C75B0EBBDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65B9DA3D-C113-4336-A959-FCBEEBDB9628}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65B9DA3D-C113-4336-A959-FCBEEBDB9628}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65B9DA3D-C113-4336-A959-FCBEEBDB9628}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65B9DA3D-C113-4336-A959-FCBEEBDB9628}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44095675-F05C-42D0-A600-AD0DC32D48F9}
+	EndGlobalSection
+EndGlobal

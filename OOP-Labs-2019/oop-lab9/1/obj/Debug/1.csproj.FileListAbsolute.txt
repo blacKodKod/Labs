@@ -1,0 +1,30 @@
+C:\work\Visual studio\C#\OOP\OOP_Lab_9\1\bin\Debug\1.exe.config
+C:\work\Visual studio\C#\OOP\OOP_Lab_9\1\bin\Debug\1.exe
+C:\work\Visual studio\C#\OOP\OOP_Lab_9\1\bin\Debug\1.pdb
+C:\work\Visual studio\C#\OOP\OOP_Lab_9\1\bin\Debug\Fraction.dll
+C:\work\Visual studio\C#\OOP\OOP_Lab_9\1\bin\Debug\Fraction.pdb
+C:\work\Visual studio\C#\OOP\OOP_Lab_9\1\obj\Debug\1.csprojAssemblyReference.cache
+C:\work\Visual studio\C#\OOP\OOP_Lab_9\1\obj\Debug\1.csproj.CoreCompileInputs.cache
+C:\work\Visual studio\C#\OOP\OOP_Lab_9\1\obj\Debug\1.csproj.CopyComplete
+C:\work\Visual studio\C#\OOP\OOP_Lab_9\1\obj\Debug\1.exe
+C:\work\Visual studio\C#\OOP\OOP_Lab_9\1\obj\Debug\1.pdb
+C:\Users\Dima\Desktop\OOP_Lab_9\1\bin\Debug\1.exe.config
+C:\Users\Dima\Desktop\OOP_Lab_9\1\bin\Debug\1.exe
+C:\Users\Dima\Desktop\OOP_Lab_9\1\bin\Debug\1.pdb
+C:\Users\Dima\Desktop\OOP_Lab_9\1\bin\Debug\Fraction.dll
+C:\Users\Dima\Desktop\OOP_Lab_9\1\bin\Debug\Fraction.pdb
+C:\Users\Dima\Desktop\OOP_Lab_9\1\obj\Debug\1.csprojAssemblyReference.cache
+C:\Users\Dima\Desktop\OOP_Lab_9\1\obj\Debug\1.csproj.CoreCompileInputs.cache
+C:\Users\Dima\Desktop\OOP_Lab_9\1\obj\Debug\1.csproj.CopyComplete
+C:\Users\Dima\Desktop\OOP_Lab_9\1\obj\Debug\1.exe
+C:\Users\Dima\Desktop\OOP_Lab_9\1\obj\Debug\1.pdb
+C:\Users\laptop\source\repos\OOP\oop-lab9\1\bin\Debug\1.exe.config
+C:\Users\laptop\source\repos\OOP\oop-lab9\1\bin\Debug\1.exe
+C:\Users\laptop\source\repos\OOP\oop-lab9\1\bin\Debug\1.pdb
+C:\Users\laptop\source\repos\OOP\oop-lab9\1\obj\Debug\1.csprojAssemblyReference.cache
+C:\Users\laptop\source\repos\OOP\oop-lab9\1\obj\Debug\1.csproj.CoreCompileInputs.cache
+C:\Users\laptop\source\repos\OOP\oop-lab9\1\obj\Debug\1.csproj.CopyComplete
+C:\Users\laptop\source\repos\OOP\oop-lab9\1\obj\Debug\1.exe
+C:\Users\laptop\source\repos\OOP\oop-lab9\1\obj\Debug\1.pdb
+C:\Users\laptop\source\repos\OOP\oop-lab9\1\bin\Debug\ClassLibraryFraction.dll
+C:\Users\laptop\source\repos\OOP\oop-lab9\1\bin\Debug\ClassLibraryFraction.pdb

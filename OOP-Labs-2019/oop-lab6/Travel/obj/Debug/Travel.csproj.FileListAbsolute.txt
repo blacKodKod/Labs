@@ -1,0 +1,20 @@
+S:\oop-lab6\Travel\bin\Debug\Travel.exe.config
+S:\oop-lab6\Travel\bin\Debug\Travel.exe
+S:\oop-lab6\Travel\bin\Debug\Travel.pdb
+S:\oop-lab6\Travel\obj\Debug\Travel.csprojResolveAssemblyReference.cache
+S:\oop-lab6\Travel\obj\Debug\Travel.TravelW.resources
+S:\oop-lab6\Travel\obj\Debug\Travel.Properties.Resources.resources
+S:\oop-lab6\Travel\obj\Debug\Travel.csproj.GenerateResource.Cache
+S:\oop-lab6\Travel\obj\Debug\Travel.csproj.CoreCompileInputs.cache
+S:\oop-lab6\Travel\obj\Debug\Travel.exe
+S:\oop-lab6\Travel\obj\Debug\Travel.pdb
+D:\My Documents\University\Лабораторные\ООП\Код лаб\oop-lab6\Travel\bin\Debug\Travel.exe.config
+D:\My Documents\University\Лабораторные\ООП\Код лаб\oop-lab6\Travel\bin\Debug\Travel.exe
+D:\My Documents\University\Лабораторные\ООП\Код лаб\oop-lab6\Travel\bin\Debug\Travel.pdb
+D:\My Documents\University\Лабораторные\ООП\Код лаб\oop-lab6\Travel\obj\Debug\Travel.csprojAssemblyReference.cache
+D:\My Documents\University\Лабораторные\ООП\Код лаб\oop-lab6\Travel\obj\Debug\Travel.TravelW.resources
+D:\My Documents\University\Лабораторные\ООП\Код лаб\oop-lab6\Travel\obj\Debug\Travel.Properties.Resources.resources
+D:\My Documents\University\Лабораторные\ООП\Код лаб\oop-lab6\Travel\obj\Debug\Travel.csproj.GenerateResource.cache
+D:\My Documents\University\Лабораторные\ООП\Код лаб\oop-lab6\Travel\obj\Debug\Travel.csproj.CoreCompileInputs.cache
+D:\My Documents\University\Лабораторные\ООП\Код лаб\oop-lab6\Travel\obj\Debug\Travel.exe
+D:\My Documents\University\Лабораторные\ООП\Код лаб\oop-lab6\Travel\obj\Debug\Travel.pdb

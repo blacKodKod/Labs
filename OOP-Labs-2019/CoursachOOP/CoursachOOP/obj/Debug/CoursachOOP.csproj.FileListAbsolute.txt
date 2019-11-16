@@ -1,0 +1,13 @@
+C:\Users\laptop\source\repos\OOP\CoursachOOP\CoursachOOP\bin\Debug\CoursachOOP.exe.config
+C:\Users\laptop\source\repos\OOP\CoursachOOP\CoursachOOP\bin\Debug\CoursachOOP.exe
+C:\Users\laptop\source\repos\OOP\CoursachOOP\CoursachOOP\bin\Debug\CoursachOOP.pdb
+C:\Users\laptop\source\repos\OOP\CoursachOOP\CoursachOOP\bin\Debug\ClassLibrary.dll
+C:\Users\laptop\source\repos\OOP\CoursachOOP\CoursachOOP\bin\Debug\ClassLibrary.pdb
+C:\Users\laptop\source\repos\OOP\CoursachOOP\CoursachOOP\obj\Debug\CoursachOOP.csprojAssemblyReference.cache
+C:\Users\laptop\source\repos\OOP\CoursachOOP\CoursachOOP\obj\Debug\CoursachOOP.Form1.resources
+C:\Users\laptop\source\repos\OOP\CoursachOOP\CoursachOOP\obj\Debug\CoursachOOP.Properties.Resources.resources
+C:\Users\laptop\source\repos\OOP\CoursachOOP\CoursachOOP\obj\Debug\CoursachOOP.csproj.GenerateResource.cache
+C:\Users\laptop\source\repos\OOP\CoursachOOP\CoursachOOP\obj\Debug\CoursachOOP.csproj.CoreCompileInputs.cache
+C:\Users\laptop\source\repos\OOP\CoursachOOP\CoursachOOP\obj\Debug\CoursachOOP.csproj.CopyComplete
+C:\Users\laptop\source\repos\OOP\CoursachOOP\CoursachOOP\obj\Debug\CoursachOOP.exe
+C:\Users\laptop\source\repos\OOP\CoursachOOP\CoursachOOP\obj\Debug\CoursachOOP.pdb

@@ -1,0 +1,28 @@
+D:\Users\pi60_hmm\source\repos\oop-lab4\oop-lab4\obj\Debug\StructConlsole.csprojResolveAssemblyReference.cache
+D:\Users\pi60_hmm\source\repos\oop-lab4\oop-lab4\obj\Debug\StructConlsole.csproj.CoreCompileInputs.cache
+D:\Users\pi60_hmm\source\repos\oop-lab4\oop-lab4\bin\Debug\oop-lab4.exe.config
+D:\Users\pi60_hmm\source\repos\oop-lab4\oop-lab4\bin\Debug\oop-lab4.exe
+D:\Users\pi60_hmm\source\repos\oop-lab4\oop-lab4\bin\Debug\oop-lab4.pdb
+D:\Users\pi60_hmm\source\repos\oop-lab4\oop-lab4\obj\Debug\oop-lab4.exe
+D:\Users\pi60_hmm\source\repos\oop-lab4\oop-lab4\obj\Debug\oop-lab4.pdb
+C:\Users\pi60_hmm\Desktop\oop-lab4\oop-lab4\bin\Debug\oop-lab4.exe.config
+C:\Users\pi60_hmm\Desktop\oop-lab4\oop-lab4\bin\Debug\oop-lab4.exe
+C:\Users\pi60_hmm\Desktop\oop-lab4\oop-lab4\bin\Debug\oop-lab4.pdb
+C:\Users\pi60_hmm\Desktop\oop-lab4\oop-lab4\obj\Debug\StructConlsole.csprojResolveAssemblyReference.cache
+C:\Users\pi60_hmm\Desktop\oop-lab4\oop-lab4\obj\Debug\StructConlsole.csproj.CoreCompileInputs.cache
+C:\Users\pi60_hmm\Desktop\oop-lab4\oop-lab4\obj\Debug\oop-lab4.exe
+C:\Users\pi60_hmm\Desktop\oop-lab4\oop-lab4\obj\Debug\oop-lab4.pdb
+C:\Users\laptop\Desktop\робоча папка\ООП\Лабораторні\oop-lab4\oop-lab4\bin\Debug\oop-lab4.exe.config
+C:\Users\laptop\Desktop\робоча папка\ООП\Лабораторні\oop-lab4\oop-lab4\bin\Debug\oop-lab4.exe
+C:\Users\laptop\Desktop\робоча папка\ООП\Лабораторні\oop-lab4\oop-lab4\bin\Debug\oop-lab4.pdb
+C:\Users\laptop\Desktop\робоча папка\ООП\Лабораторні\oop-lab4\oop-lab4\obj\Debug\StructConlsole.csprojAssemblyReference.cache
+C:\Users\laptop\Desktop\робоча папка\ООП\Лабораторні\oop-lab4\oop-lab4\obj\Debug\StructConlsole.csproj.CoreCompileInputs.cache
+C:\Users\laptop\Desktop\робоча папка\ООП\Лабораторні\oop-lab4\oop-lab4\obj\Debug\oop-lab4.exe
+C:\Users\laptop\Desktop\робоча папка\ООП\Лабораторні\oop-lab4\oop-lab4\obj\Debug\oop-lab4.pdb
+C:\Users\laptop\source\repos\OOP\oop-lab4\oop-lab4\bin\Debug\oop-lab4.exe.config
+C:\Users\laptop\source\repos\OOP\oop-lab4\oop-lab4\bin\Debug\oop-lab4.exe
+C:\Users\laptop\source\repos\OOP\oop-lab4\oop-lab4\bin\Debug\oop-lab4.pdb
+C:\Users\laptop\source\repos\OOP\oop-lab4\oop-lab4\obj\Debug\StructConlsole.csprojAssemblyReference.cache
+C:\Users\laptop\source\repos\OOP\oop-lab4\oop-lab4\obj\Debug\StructConlsole.csproj.CoreCompileInputs.cache
+C:\Users\laptop\source\repos\OOP\oop-lab4\oop-lab4\obj\Debug\oop-lab4.exe
+C:\Users\laptop\source\repos\OOP\oop-lab4\oop-lab4\obj\Debug\oop-lab4.pdb

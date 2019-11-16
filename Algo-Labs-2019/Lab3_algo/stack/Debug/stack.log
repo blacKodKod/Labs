@@ -1,0 +1,5 @@
+﻿  stack.cpp
+c:\users\laptop\source\repos\algo\algo_labs_2019\lab3_algo\stack\stack.cpp(147): warning C4390: ';': empty controlled statement found; is this the intent?
+c:\users\laptop\source\repos\algo\algo_labs_2019\lab3_algo\stack\stack.cpp(127): warning C4101: 'i': unreferenced local variable
+c:\users\laptop\source\repos\algo\algo_labs_2019\lab3_algo\stack\stack.cpp(110): warning C4715: 'printList': not all control paths return a value
+  stack.vcxproj -> C:\Users\laptop\source\repos\Algo\algo_labs_2019\Lab3_algo\Debug\stack.exe

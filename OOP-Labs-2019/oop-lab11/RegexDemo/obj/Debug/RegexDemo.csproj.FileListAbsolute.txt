@@ -1,0 +1,10 @@
+C:\Users\laptop\source\repos\OOP\oop-lab11\RegexDemo\bin\Debug\RegexDemo.exe.config
+C:\Users\laptop\source\repos\OOP\oop-lab11\RegexDemo\bin\Debug\RegexDemo.exe
+C:\Users\laptop\source\repos\OOP\oop-lab11\RegexDemo\bin\Debug\RegexDemo.pdb
+C:\Users\laptop\source\repos\OOP\oop-lab11\RegexDemo\obj\Debug\RegexDemo.csprojAssemblyReference.cache
+C:\Users\laptop\source\repos\OOP\oop-lab11\RegexDemo\obj\Debug\RegexDemo.Form1.resources
+C:\Users\laptop\source\repos\OOP\oop-lab11\RegexDemo\obj\Debug\RegexDemo.Properties.Resources.resources
+C:\Users\laptop\source\repos\OOP\oop-lab11\RegexDemo\obj\Debug\RegexDemo.csproj.GenerateResource.cache
+C:\Users\laptop\source\repos\OOP\oop-lab11\RegexDemo\obj\Debug\RegexDemo.csproj.CoreCompileInputs.cache
+C:\Users\laptop\source\repos\OOP\oop-lab11\RegexDemo\obj\Debug\RegexDemo.exe
+C:\Users\laptop\source\repos\OOP\oop-lab11\RegexDemo\obj\Debug\RegexDemo.pdb

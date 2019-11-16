@@ -1,0 +1,10 @@
+D:\Users\pi60_hmm\Desktop\oop-lab6\Travel\bin\Debug\Travel.exe.config
+D:\Users\pi60_hmm\Desktop\oop-lab6\Travel\bin\Debug\Travel.exe
+D:\Users\pi60_hmm\Desktop\oop-lab6\Travel\bin\Debug\Travel.pdb
+D:\Users\pi60_hmm\Desktop\oop-lab6\Travel\obj\Debug\Travel.TravelW.resources
+D:\Users\pi60_hmm\Desktop\oop-lab6\Travel\obj\Debug\Travel.Properties.Resources.resources
+D:\Users\pi60_hmm\Desktop\oop-lab6\Travel\obj\Debug\TravelForm.csproj.GenerateResource.Cache
+D:\Users\pi60_hmm\Desktop\oop-lab6\Travel\obj\Debug\TravelForm.csproj.CoreCompileInputs.cache
+D:\Users\pi60_hmm\Desktop\oop-lab6\Travel\obj\Debug\Travel.exe
+D:\Users\pi60_hmm\Desktop\oop-lab6\Travel\obj\Debug\Travel.pdb
+D:\Users\pi60_hmm\Desktop\oop-lab6\Travel\obj\Debug\TravelForm.csprojResolveAssemblyReference.cache

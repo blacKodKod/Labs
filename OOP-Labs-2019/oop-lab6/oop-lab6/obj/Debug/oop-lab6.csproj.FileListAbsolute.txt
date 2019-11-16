@@ -1,0 +1,20 @@
+S:\oop-lab6\oop-lab6\bin\Debug\oop-lab6.exe.config
+S:\oop-lab6\oop-lab6\bin\Debug\oop-lab6.exe
+S:\oop-lab6\oop-lab6\bin\Debug\oop-lab6.pdb
+S:\oop-lab6\oop-lab6\obj\Debug\oop-lab6.csprojResolveAssemblyReference.cache
+S:\oop-lab6\oop-lab6\obj\Debug\oop_lab6.Form1.resources
+S:\oop-lab6\oop-lab6\obj\Debug\oop_lab6.Properties.Resources.resources
+S:\oop-lab6\oop-lab6\obj\Debug\oop-lab6.csproj.GenerateResource.Cache
+S:\oop-lab6\oop-lab6\obj\Debug\oop-lab6.csproj.CoreCompileInputs.cache
+S:\oop-lab6\oop-lab6\obj\Debug\oop-lab6.exe
+S:\oop-lab6\oop-lab6\obj\Debug\oop-lab6.pdb
+D:\My Documents\University\Лабораторные\ООП\Код лаб\oop-lab6\oop-lab6\bin\Debug\oop-lab6.exe.config
+D:\My Documents\University\Лабораторные\ООП\Код лаб\oop-lab6\oop-lab6\bin\Debug\oop-lab6.exe
+D:\My Documents\University\Лабораторные\ООП\Код лаб\oop-lab6\oop-lab6\bin\Debug\oop-lab6.pdb
+D:\My Documents\University\Лабораторные\ООП\Код лаб\oop-lab6\oop-lab6\obj\Debug\oop-lab6.csprojAssemblyReference.cache
+D:\My Documents\University\Лабораторные\ООП\Код лаб\oop-lab6\oop-lab6\obj\Debug\oop_lab6.Form1.resources
+D:\My Documents\University\Лабораторные\ООП\Код лаб\oop-lab6\oop-lab6\obj\Debug\oop_lab6.Properties.Resources.resources
+D:\My Documents\University\Лабораторные\ООП\Код лаб\oop-lab6\oop-lab6\obj\Debug\oop-lab6.csproj.GenerateResource.cache
+D:\My Documents\University\Лабораторные\ООП\Код лаб\oop-lab6\oop-lab6\obj\Debug\oop-lab6.csproj.CoreCompileInputs.cache
+D:\My Documents\University\Лабораторные\ООП\Код лаб\oop-lab6\oop-lab6\obj\Debug\oop-lab6.exe
+D:\My Documents\University\Лабораторные\ООП\Код лаб\oop-lab6\oop-lab6\obj\Debug\oop-lab6.pdb

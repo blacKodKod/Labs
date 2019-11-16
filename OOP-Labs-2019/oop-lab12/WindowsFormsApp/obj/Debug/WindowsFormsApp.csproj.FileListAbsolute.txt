@@ -1,0 +1,13 @@
+C:\Users\laptop\source\repos\oop-lab12\WindowsFormsApp\obj\Debug\WindowsFormsApp.csprojAssemblyReference.cache
+C:\Users\laptop\source\repos\oop-lab12\WindowsFormsApp\obj\Debug\WindowsFormsApp.Form1.resources
+C:\Users\laptop\source\repos\oop-lab12\WindowsFormsApp\obj\Debug\WindowsFormsApp.Properties.Resources.resources
+C:\Users\laptop\source\repos\oop-lab12\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.GenerateResource.cache
+C:\Users\laptop\source\repos\oop-lab12\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.CoreCompileInputs.cache
+C:\Users\laptop\source\repos\oop-lab12\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe.config
+C:\Users\laptop\source\repos\oop-lab12\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe
+C:\Users\laptop\source\repos\oop-lab12\WindowsFormsApp\bin\Debug\WindowsFormsApp.pdb
+C:\Users\laptop\source\repos\oop-lab12\WindowsFormsApp\bin\Debug\ClassLibrary.dll
+C:\Users\laptop\source\repos\oop-lab12\WindowsFormsApp\bin\Debug\ClassLibrary.pdb
+C:\Users\laptop\source\repos\oop-lab12\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.CopyComplete
+C:\Users\laptop\source\repos\oop-lab12\WindowsFormsApp\obj\Debug\WindowsFormsApp.exe
+C:\Users\laptop\source\repos\oop-lab12\WindowsFormsApp\obj\Debug\WindowsFormsApp.pdb

@@ -1,0 +1,10 @@
+C:\Users\laptop\source\repos\OOP\oop-lab7\ConsoleExs1\obj\Debug\ConsoleExs1.csprojAssemblyReference.cache
+C:\Users\laptop\source\repos\OOP\oop-lab7\ConsoleExs1\obj\Debug\ConsoleExs1.csproj.CoreCompileInputs.cache
+C:\Users\laptop\source\repos\OOP\oop-lab7\ConsoleExs1\bin\Debug\ConsoleExs1.exe.config
+C:\Users\laptop\source\repos\OOP\oop-lab7\ConsoleExs1\bin\Debug\ConsoleExs1.exe
+C:\Users\laptop\source\repos\OOP\oop-lab7\ConsoleExs1\bin\Debug\ConsoleExs1.pdb
+C:\Users\laptop\source\repos\OOP\oop-lab7\ConsoleExs1\bin\Debug\ClassLibrary.dll
+C:\Users\laptop\source\repos\OOP\oop-lab7\ConsoleExs1\bin\Debug\ClassLibrary.pdb
+C:\Users\laptop\source\repos\OOP\oop-lab7\ConsoleExs1\obj\Debug\ConsoleExs1.csproj.CopyComplete
+C:\Users\laptop\source\repos\OOP\oop-lab7\ConsoleExs1\obj\Debug\ConsoleExs1.exe
+C:\Users\laptop\source\repos\OOP\oop-lab7\ConsoleExs1\obj\Debug\ConsoleExs1.pdb

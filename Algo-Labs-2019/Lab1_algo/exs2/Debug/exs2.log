@@ -1,0 +1,4 @@
+﻿  exs2.cpp
+c:\users\laptop\source\repos\algo\lab1_algo\exs2\exs2.cpp(31): warning C4477: 'scanf_s' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'short *'
+  c:\users\laptop\source\repos\algo\lab1_algo\exs2\exs2.cpp(31): note: consider using '%hd' in the format string
+  exs2.vcxproj -> C:\Users\laptop\source\repos\Algo\Lab1_algo\Debug\exs2.exe

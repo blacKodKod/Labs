@@ -1,0 +1,4 @@
+﻿  Lab2_algo.cpp
+c:\users\laptop\source\repos\algo\algo_labs_2019\lab2_algo\lab2_algo\lab2_algo.cpp(15): warning C4244: 'initializing': conversion from 'double' to '__int64', possible loss of data
+c:\users\laptop\source\repos\algo\algo_labs_2019\lab2_algo\lab2_algo\lab2_algo.cpp(16): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  Lab2_algo.vcxproj -> C:\Users\laptop\source\repos\Algo\algo_labs_2019\Lab2_algo\Debug\Lab2_algo.exe

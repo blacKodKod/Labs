@@ -1,0 +1,18 @@
+C:\work\Visual studio\C#\OOP\OOP_Lab_9\Fraction\bin\Debug\Fraction.dll
+C:\work\Visual studio\C#\OOP\OOP_Lab_9\Fraction\bin\Debug\Fraction.pdb
+C:\work\Visual studio\C#\OOP\OOP_Lab_9\Fraction\obj\Debug\Fraction.csprojAssemblyReference.cache
+C:\work\Visual studio\C#\OOP\OOP_Lab_9\Fraction\obj\Debug\Fraction.csproj.CoreCompileInputs.cache
+C:\work\Visual studio\C#\OOP\OOP_Lab_9\Fraction\obj\Debug\Fraction.dll
+C:\work\Visual studio\C#\OOP\OOP_Lab_9\Fraction\obj\Debug\Fraction.pdb
+C:\Users\Dima\Desktop\OOP_Lab_9\Fraction\bin\Debug\Fraction.dll
+C:\Users\Dima\Desktop\OOP_Lab_9\Fraction\bin\Debug\Fraction.pdb
+C:\Users\Dima\Desktop\OOP_Lab_9\Fraction\obj\Debug\Fraction.csprojAssemblyReference.cache
+C:\Users\Dima\Desktop\OOP_Lab_9\Fraction\obj\Debug\Fraction.csproj.CoreCompileInputs.cache
+C:\Users\Dima\Desktop\OOP_Lab_9\Fraction\obj\Debug\Fraction.dll
+C:\Users\Dima\Desktop\OOP_Lab_9\Fraction\obj\Debug\Fraction.pdb
+C:\Users\laptop\source\repos\OOP\oop-lab9\Fraction\bin\Debug\Fraction.dll
+C:\Users\laptop\source\repos\OOP\oop-lab9\Fraction\bin\Debug\Fraction.pdb
+C:\Users\laptop\source\repos\OOP\oop-lab9\Fraction\obj\Debug\Fraction.csprojAssemblyReference.cache
+C:\Users\laptop\source\repos\OOP\oop-lab9\Fraction\obj\Debug\Fraction.csproj.CoreCompileInputs.cache
+C:\Users\laptop\source\repos\OOP\oop-lab9\Fraction\obj\Debug\Fraction.dll
+C:\Users\laptop\source\repos\OOP\oop-lab9\Fraction\obj\Debug\Fraction.pdb

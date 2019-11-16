@@ -1,0 +1,119 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Collections;
+using ClassLibrary;
+
+namespace CoursachOOP
+{
+    public partial class Form1 : Form
+    {
+        //List<Client> client = new List<Client>();
+        //List<VIPClient> vipclient = new List<VIPClient>();
+        VIPClient vipclient;
+        Client client;
+
+        
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void buttonPutMoney_Click(object sender, EventArgs e)
+        {
+            int sum = (int)numericUpDownPushMoney.Value;
+            int x = check();
+            if (x == 1)
+            {
+                textBoxInfo.Text = vipclient.putMoney(sum).ToString();
+            }
+            else
+            {
+                textBoxInfo.Text = client.putMoney(sum).ToString();
+            }
+        }
+
+        private void buttonNext_Click(object sender, EventArgs e)
+        {
+            int x = check();
+            if (x == 1)
+            {
+                vipclient = new VIPClient();
+            }
+            else
+            {
+                client = new Client();
+            }
+
+            label1.Visible = false;
+            textBoxNumberCard.Visible = false;
+            buttonNext.Visible = false;
+            label2.Visible = true;
+            numericUpDownPushMoney.Visible = true;
+            textBoxInfo.Visible = true;
+        }
+
+        public int check()
+        {
+            string numberCard = textBoxNumberCard.Text;
+            string[] arrVIPclients =
+            {
+                "1",
+                "1111 1111 1111 1111",
+                "2222 2222 2222 2222",
+                "3333 3333 3333 3333",
+                "1324 1234 1234 1234"
+            };
+
+            foreach (var VIPclient in arrVIPclients)
+            {
+                if (numberCard == VIPclient)
+                    return 1;
+            }
+            return 0;
+        }
+
+        private void buttonGetMoney_Click(object sender, EventArgs e)
+        {
+            int sum = (int)numericUpDownPushMoney.Value;
+            int x = check();
+            int balanceVip = 0;
+            int balance = 0;
+            if (x == 1)
+            {
+                balanceVip = vipclient.getMoney(sum);
+                if (balanceVip == 0)
+                    MessageBox.Show("У вас недостаточно средств!", "Ошибка!!!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                else
+                    textBoxInfo.Text = balanceVip.ToString();
+            }
+            else
+            {
+                balance = client.getMoney(sum);
+                if (balance == 0 )
+                    MessageBox.Show("У вас недостаточно средств!", "Ошибка!!!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                else
+                    textBoxInfo.Text = balance.ToString();
+            }
+        }
+
+        private void buttonGetBalance_Click(object sender, EventArgs e)
+        {
+            int x = check();
+            if (x == 1)
+            {
+                textBoxInfo.Text = vipclient.getBalance().ToString();
+            }
+            else
+            {
+                textBoxInfo.Text = client.getBalance().ToString();
+            }
+        }
+    }
+}

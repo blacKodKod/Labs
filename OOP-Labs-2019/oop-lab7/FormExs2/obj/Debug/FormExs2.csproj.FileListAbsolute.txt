@@ -1,0 +1,13 @@
+C:\Users\laptop\source\repos\OOP\oop-lab7\FormExs2\bin\Debug\FormExs2.exe.config
+C:\Users\laptop\source\repos\OOP\oop-lab7\FormExs2\bin\Debug\FormExs2.exe
+C:\Users\laptop\source\repos\OOP\oop-lab7\FormExs2\bin\Debug\FormExs2.pdb
+C:\Users\laptop\source\repos\OOP\oop-lab7\FormExs2\bin\Debug\ClassLibraryFigure.dll
+C:\Users\laptop\source\repos\OOP\oop-lab7\FormExs2\bin\Debug\ClassLibraryFigure.pdb
+C:\Users\laptop\source\repos\OOP\oop-lab7\FormExs2\obj\Debug\FormExs2.csprojAssemblyReference.cache
+C:\Users\laptop\source\repos\OOP\oop-lab7\FormExs2\obj\Debug\FormExs2.Form1.resources
+C:\Users\laptop\source\repos\OOP\oop-lab7\FormExs2\obj\Debug\FormExs2.Properties.Resources.resources
+C:\Users\laptop\source\repos\OOP\oop-lab7\FormExs2\obj\Debug\FormExs2.csproj.GenerateResource.cache
+C:\Users\laptop\source\repos\OOP\oop-lab7\FormExs2\obj\Debug\FormExs2.csproj.CoreCompileInputs.cache
+C:\Users\laptop\source\repos\OOP\oop-lab7\FormExs2\obj\Debug\FormExs2.csproj.CopyComplete
+C:\Users\laptop\source\repos\OOP\oop-lab7\FormExs2\obj\Debug\FormExs2.exe
+C:\Users\laptop\source\repos\OOP\oop-lab7\FormExs2\obj\Debug\FormExs2.pdb
