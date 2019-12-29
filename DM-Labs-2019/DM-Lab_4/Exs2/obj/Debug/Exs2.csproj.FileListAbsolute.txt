@@ -1,0 +1,17 @@
+C:\Users\laptop\Desktop\робоча папка\Дискретна математика\Labs\DM-Lab_4\Exs2\bin\Debug\Exs2.exe.config
+C:\Users\laptop\Desktop\робоча папка\Дискретна математика\Labs\DM-Lab_4\Exs2\bin\Debug\Exs2.exe
+C:\Users\laptop\Desktop\робоча папка\Дискретна математика\Labs\DM-Lab_4\Exs2\bin\Debug\Exs2.pdb
+C:\Users\laptop\Desktop\робоча папка\Дискретна математика\Labs\DM-Lab_4\Exs2\obj\Debug\Exs2.csprojAssemblyReference.cache
+C:\Users\laptop\Desktop\робоча папка\Дискретна математика\Labs\DM-Lab_4\Exs2\obj\Debug\DistanceDialog.g.cs
+C:\Users\laptop\Desktop\робоча папка\Дискретна математика\Labs\DM-Lab_4\Exs2\obj\Debug\MainWindow.g.cs
+C:\Users\laptop\Desktop\робоча папка\Дискретна математика\Labs\DM-Lab_4\Exs2\obj\Debug\App.g.cs
+C:\Users\laptop\Desktop\робоча папка\Дискретна математика\Labs\DM-Lab_4\Exs2\obj\Debug\Exs2_MarkupCompile.cache
+C:\Users\laptop\Desktop\робоча папка\Дискретна математика\Labs\DM-Lab_4\Exs2\obj\Debug\Exs2_MarkupCompile.lref
+C:\Users\laptop\Desktop\робоча папка\Дискретна математика\Labs\DM-Lab_4\Exs2\obj\Debug\DistanceDialog.baml
+C:\Users\laptop\Desktop\робоча папка\Дискретна математика\Labs\DM-Lab_4\Exs2\obj\Debug\MainWindow.baml
+C:\Users\laptop\Desktop\робоча папка\Дискретна математика\Labs\DM-Lab_4\Exs2\obj\Debug\Exs2.g.resources
+C:\Users\laptop\Desktop\робоча папка\Дискретна математика\Labs\DM-Lab_4\Exs2\obj\Debug\Exs2.Properties.Resources.resources
+C:\Users\laptop\Desktop\робоча папка\Дискретна математика\Labs\DM-Lab_4\Exs2\obj\Debug\Exs2.csproj.GenerateResource.cache
+C:\Users\laptop\Desktop\робоча папка\Дискретна математика\Labs\DM-Lab_4\Exs2\obj\Debug\Exs2.csproj.CoreCompileInputs.cache
+C:\Users\laptop\Desktop\робоча папка\Дискретна математика\Labs\DM-Lab_4\Exs2\obj\Debug\Exs2.exe
+C:\Users\laptop\Desktop\робоча папка\Дискретна математика\Labs\DM-Lab_4\Exs2\obj\Debug\Exs2.pdb

@@ -1,0 +1,17 @@
+﻿<Window x:Class="Exs2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Exs2"
+        mc:Ignorable="d"
+        Title="Лабораторна робота №4. Харипончук Марії, гр. ПІ-60" Height="507.662" Width="975.952" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid Background="#FF4C2359">
+        <Canvas x:Name="drawingCanvas" HorizontalAlignment="Left" Height="386" Margin="32,60,0,0" VerticalAlignment="Top" Width="586" MouseUp="drawingCanvas_MouseUp" Background="#FFE58AFF"/>
+        <Label x:Name="statusLabel" Content="" HorizontalAlignment="Left" Height="38" Margin="44,15,0,0" VerticalAlignment="Top" Width="574" Foreground="White" FontSize="18"/>
+        <Button x:Name="findMinSpanTreeBtn" Content="Знайти мін. остове дерево" HorizontalAlignment="Left" Height="67" Margin="651,107,0,0" VerticalAlignment="Top" Width="287" Background="#FFD770F4" FontSize="20" Click="findMinSpanTreeBtn_Click"/>
+        <Button x:Name="clearBtn" Content="Clear" HorizontalAlignment="Left" Height="67" Margin="651,208,0,0" VerticalAlignment="Top" Width="287" Background="#FFD770F4" FontSize="20" Click="clearBtn_Click"/>
+        <Button x:Name="restartBtn" Content="Restart" HorizontalAlignment="Left" Height="67" Margin="651,307,0,0" VerticalAlignment="Top" Width="287" Background="#FFD770F4" FontSize="20" Click="restartBtn_Click"/>
+
+    </Grid>
+</Window>

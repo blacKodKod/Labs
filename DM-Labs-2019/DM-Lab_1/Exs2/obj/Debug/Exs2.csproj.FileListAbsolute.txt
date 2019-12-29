@@ -1,0 +1,7 @@
+C:\Users\laptop\Desktop\робоча папка\Дискретна математика\Labs\DM-Lab_1\Exs2\obj\Debug\Exs2.csprojAssemblyReference.cache
+C:\Users\laptop\Desktop\робоча папка\Дискретна математика\Labs\DM-Lab_1\Exs2\obj\Debug\Exs2.csproj.CoreCompileInputs.cache
+C:\Users\laptop\Desktop\робоча папка\Дискретна математика\Labs\DM-Lab_1\Exs2\bin\Debug\Exs2.exe.config
+C:\Users\laptop\Desktop\робоча папка\Дискретна математика\Labs\DM-Lab_1\Exs2\bin\Debug\Exs2.exe
+C:\Users\laptop\Desktop\робоча папка\Дискретна математика\Labs\DM-Lab_1\Exs2\bin\Debug\Exs2.pdb
+C:\Users\laptop\Desktop\робоча папка\Дискретна математика\Labs\DM-Lab_1\Exs2\obj\Debug\Exs2.exe
+C:\Users\laptop\Desktop\робоча папка\Дискретна математика\Labs\DM-Lab_1\Exs2\obj\Debug\Exs2.pdb

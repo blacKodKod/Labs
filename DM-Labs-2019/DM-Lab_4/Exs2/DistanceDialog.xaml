@@ -1,0 +1,16 @@
+﻿<Window x:Class="Exs2.DistanceDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Exs2"
+        mc:Ignorable="d"
+        Title="DistanceDialog" Height="186.907" Width="443.454" WindowStartupLocation="CenterScreen">
+    <Grid Background="#FF4C2359">
+        <TextBox x:Name="distanceTextBox" HorizontalAlignment="Center" Height="32" Margin="216,23,56.8,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="164" BorderBrush="#FF707070" Background="#FFD770F4" FontSize="24" FontWeight="Bold" FontFamily="Arial Black" TextAlignment="Center" AllowDrop="True"/>
+        <Button x:Name="okBtn" Content="OK" HorizontalAlignment="Left" Height="51" Margin="28,78,0,0" VerticalAlignment="Top" Width="174" Click="okBtn_Click" Background="#FFD770F4" FontSize="18" />
+        <Button x:Name="cancelBtn" Content="Cancel" HorizontalAlignment="Left" Height="51" Margin="232,78,0,0" VerticalAlignment="Top" Width="174" Background="#FFD770F4" FontSize="18" />
+        <Label Content="Введіть вагу ребра: " HorizontalAlignment="Left" Height="32" Margin="53,24,0,0" VerticalAlignment="Top" Width="149" Foreground="White" FontSize="16"/>
+
+    </Grid>
+</Window>
